@@ -1,0 +1,46 @@
+/*"Media query": {
+    "prefix": "mediaquery",
+    "body": ["@media (min-width: ${1:size}px) {", "\t", "}", ""],
+    "description": "Crear media query CSS"
+  },
+  "Init CSS": {
+    "prefix": "initcss",
+    "body": [
+      "html {",
+      "\t\tbox-sizing: border-box;",
+      "\t\tfont-size: 62.5%;",
+      "}\n",
+      "*,",
+      "*:before,",
+      "*:after {",
+      "\t\tbox-sizing: inherit;",
+      "}\n",
+      "body {",
+      "\t\tfont-size: 1.6rem;",
+      "\t\tline-height: 1.5;",
+      "}\n"
+    ],
+    "description": "Inicializar archivo CSS estilo básico"
+  },
+  "Media query mediante mixins": {
+    "prefix": "mqmix",
+    "body": [
+      "@include m.$1 {\n\t\t$2\n}"*/
+    ],
+   // "description": "Incluir el mediaquery de telefono mediante los mixins"
+  },
+  "media query telegono": {
+    "prefix": "mqtel",
+    "body": [
+      "@include m.telefono{ \n\t$1\n}"
+      
+  /*  ],
+    "description": "Incluir el variables de la carpeta base de SASS"
+  },
+  "Import SASS _base mixins file": {
+    "prefix": "imm",
+    "body": [
+      "@use \"base/mixins\" as m;"
+    ],
+    "description": "Incluir los mixins de la carpeta base de SASS"
+  },
